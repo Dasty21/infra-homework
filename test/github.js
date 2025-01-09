@@ -1,6 +1,6 @@
 const argv = process.argv;
 const workflowURL = argv[2];
-
+console.log(argv, 'argv++++');
 if (workflowURL == null) {
     console.error('Не указан адрес пайплайна!');
     process.exit(1);
