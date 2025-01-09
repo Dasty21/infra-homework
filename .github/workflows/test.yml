@@ -22,7 +22,7 @@ jobs:
           node-version: '22.11.0'
           cache: 'yarn'
       - name: linters
-        run: yarn linters
+        run: yarn run linters
 
 #  build:
 #    runs-on: ubuntu-latest
