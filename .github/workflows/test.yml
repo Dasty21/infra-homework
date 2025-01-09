@@ -21,7 +21,6 @@ jobs:
         with:
           node-version: '22.11.0'
           cache: yarn
-      - name: linters
         run: yarn run linters
 
 #  build:
