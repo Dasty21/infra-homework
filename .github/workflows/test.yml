@@ -1,7 +1,9 @@
 on:
-  push:
-    dependencies:
-      runs-on: ubuntu-latest
-      steps:
-        - name: dependencies
-          run: npm i
+  push
+
+jobs:
+  dependencies:
+    runs-on: ubuntu-latest
+    steps:
+      - name: dependencies
+        run: npm i
